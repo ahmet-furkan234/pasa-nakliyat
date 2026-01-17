@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html class="light" lang="tr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Paşa Nakliyat - Güvenli ve Hızlı Taşımacılık</title>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script src="js/tailwind.config.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body
+    class="bg-background-light dark:bg-background-dark font-display text-[#121417] dark:text-white overflow-x-hidden flex flex-col min-h-screen">
+
+    <!-- Navigation -->
+    <header
+        class="sticky top-0 z-50 bg-white/90 dark:bg-[#14191e]/90 backdrop-blur-md border-b border-[#f1f2f4] dark:border-gray-800">
+        <div class="px-4 md:px-10 py-3 flex items-center justify-between max-w-[1280px] mx-auto w-full">
+            <div class="flex items-center gap-4 text-primary dark:text-white">
+                <div class="size-8 flex items-center justify-center bg-primary/10 rounded-lg text-primary">
+                    <span class="material-symbols-outlined text-[24px]">local_shipping</span>
+                </div>
+                <h2 class="text-primary dark:text-white text-xl font-bold leading-tight tracking-[-0.015em]">Paşa
+                    Nakliyat</h2>
+            </div>
+            <div class="hidden md:flex items-center gap-9">
+                <a class="text-primary font-bold text-sm leading-normal" href="index.html">Anasayfa</a>
+                <a class="text-gray-900 dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors"
+                    href="hizmetlerimiz.html">Hizmetler</a>
+
+                <a class="text-gray-900 dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors"
+                    href="iletisim.html">İletişim</a>
+            </div>
+            <div class="hidden md:block">
+                <button
+                    class="flex cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-6 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors shadow-lg shadow-primary/20">
+                    <span class="truncate">Teklif Al</span>
+                </button>
+            </div>
+            <div class="md:hidden text-primary">
+                <span class="material-symbols-outlined">menu</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow">
+        <!-- Hero Section -->
+        <section class="relative pt-20 pb-32 overflow-hidden">
+            <!-- Background with overlay -->
+            <div class="absolute inset-0 z-0">
+                <div class="absolute inset-0 bg-gradient-to-r from-gray-900/90 to-gray-900/40 z-10"></div>
+                <img src="img/index.jpeg" alt="Moving Truck" class="w-full h-full object-cover">
+            </div>
+
+            <div class="relative z-20 max-w-[1280px] mx-auto px-4 md:px-10 text-center md:text-left">
+                <h1 class="text-5xl md:text-7xl font-black text-white leading-tight tracking-tight mb-6">
+                    Taşınmanın <br>
+                    <span class="text-blue-400">En Kolay Hali.</span>
+                </h1>
+                <p class="text-lg md:text-xl text-gray-300 font-medium mb-10 max-w-2xl">
+                    Güvenilir, hızlı ve sigortalı taşımacılık çözümleriyle yeni hayatınıza sorunsuz başlayın. Sizin için
+                    taşıyoruz.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+                    <a href="iletisim.html"
+                        class="flex items-center justify-center h-14 px-8 rounded-xl bg-primary text-white font-bold text-lg hover:bg-primary/90 transition-all shadow-xl shadow-primary/20">
+                        Hemen Teklif Al
+                    </a>
+                    <a href="hizmetlerimiz.html"
+                        class="flex items-center justify-center h-14 px-8 rounded-xl bg-white/10 backdrop-blur-md border border-white/20 text-white font-bold text-lg hover:bg-white/20 transition-all">
+                        Hizmetlerimiz
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Bar -->
+        <section class="bg-primary py-10 relative z-30 -mt-10 mx-4 md:mx-10 rounded-2xl shadow-xl">
+            <div class="max-w-[1280px] mx-auto px-4">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center text-white">
+                    <div>
+                        <span class="block text-4xl font-black mb-1">15+</span>
+                        <span class="text-blue-200 text-sm font-medium uppercase tracking-wider">Yıllık Tecrübe</span>
+                    </div>
+                    <div>
+                        <span class="block text-4xl font-black mb-1">10k+</span>
+                        <span class="text-blue-200 text-sm font-medium uppercase tracking-wider">Mutlu Müşteri</span>
+                    </div>
+                    <div>
+                        <span class="block text-4xl font-black mb-1">81</span>
+                        <span class="text-blue-200 text-sm font-medium uppercase tracking-wider">İlde Hizmet</span>
+                    </div>
+                    <div>
+                        <span class="block text-4xl font-black mb-1">%100</span>
+                        <span class="text-blue-200 text-sm font-medium uppercase tracking-wider">Müşteri
+                            Memnuniyeti</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Preview -->
+        <section class="py-24 px-4 md:px-10">
+            <div class="max-w-[1280px] mx-auto">
+                <div class="text-center mb-16">
+                    <span class="text-primary font-bold tracking-wider uppercase text-sm">HİZMETLERİMİZ</span>
+                    <h2 class="text-4xl font-black mt-2 mb-4 text-[#121417] dark:text-white">İhtiyacınıza Uygun <span
+                            class="text-primary">Çözümler</span></h2>
+                    <p class="text-gray-500 max-w-2xl mx-auto">Her türlü taşımacılık ihtiyacınız için profesyonel ve
+                        ekonomik çözümler sunuyoruz.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Service 1 -->
+                    <div
+                        class="group p-8 bg-white dark:bg-gray-800 rounded-3xl border border-gray-100 dark:border-gray-700 hover:shadow-2xl hover:shadow-primary/10 transition-all hover:-translate-y-2">
+                        <div
+                            class="size-16 bg-blue-50 dark:bg-blue-900/20 rounded-2xl flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform">
+                            <span class="material-symbols-outlined text-4xl">house</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3 dark:text-white">Evden Eve Nakliyat</h3>
+                        <p class="text-gray-500 dark:text-gray-400 mb-6">Eşyalarınızı en az sizin kadar önemsiyor,
+                            paketliyor ve yeni evinize güvenle taşıyoruz.</p>
+                        <a href="hizmetlerimiz.html"
+                            class="inline-flex items-center text-primary font-bold hover:gap-2 transition-all">Detaylı
+                            Bilgi <span class="material-symbols-outlined text-lg ml-1">arrow_forward</span></a>
+                    </div>
+                    <!-- Service 2 -->
+                    <div
+                        class="group p-8 bg-white dark:bg-gray-800 rounded-3xl border border-gray-100 dark:border-gray-700 hover:shadow-2xl hover:shadow-primary/10 transition-all hover:-translate-y-2">
+                        <div
+                            class="size-16 bg-blue-50 dark:bg-blue-900/20 rounded-2xl flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform">
+                            <span class="material-symbols-outlined text-4xl">domain</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3 dark:text-white">Ofis Taşıma</h3>
+                        <p class="text-gray-500 dark:text-gray-400 mb-6">İşleriniz aksamasın. Hızlı ve planlı ofis
+                            taşıma hizmetimizle yeni ofisinize hemen yerleşin.</p>
+                        <a href="hizmetlerimiz.html"
+                            class="inline-flex items-center text-primary font-bold hover:gap-2 transition-all">Detaylı
+                            Bilgi <span class="material-symbols-outlined text-lg ml-1">arrow_forward</span></a>
+                    </div>
+                    <!-- Service 3 -->
+                    <div
+                        class="group p-8 bg-white dark:bg-gray-800 rounded-3xl border border-gray-100 dark:border-gray-700 hover:shadow-2xl hover:shadow-primary/10 transition-all hover:-translate-y-2">
+                        <div
+                            class="size-16 bg-blue-50 dark:bg-blue-900/20 rounded-2xl flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform">
+                            <span class="material-symbols-outlined text-4xl">warehouse</span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-3 dark:text-white">Depolama</h3>
+                        <p class="text-gray-500 dark:text-gray-400 mb-6">Fazla eşyalarınız için güvenli, kuru ve temiz
+                            depolama alanlarımız hizmetinizde.</p>
+                        <a href="hizmetlerimiz.html"
+                            class="inline-flex items-center text-primary font-bold hover:gap-2 transition-all">Detaylı
+                            Bilgi <span class="material-symbols-outlined text-lg ml-1">arrow_forward</span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Rental Box Pricing Section -->
+        <section class="py-24 bg-blue-50 dark:bg-[#1A2027]/50 relative overflow-hidden">
+            <!-- Decorative Elements -->
+            <div
+                class="absolute top-0 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl translate-x-1/2 -translate-y-1/2 pointer-events-none">
+            </div>
+            <div
+                class="absolute bottom-0 left-0 w-64 h-64 bg-blue-300/10 rounded-full blur-3xl -translate-x-1/2 translate-y-1/2 pointer-events-none">
+            </div>
+
+            <div class="max-w-[1280px] mx-auto px-4 md:px-10 relative z-10">
+                <div class="text-center mb-16">
+                    <span class="text-primary font-bold tracking-wider uppercase text-sm">PRATİK ÇÖZÜMLER</span>
+                    <h2 class="text-4xl md:text-5xl font-black mt-2 mb-4 text-[#121417] dark:text-white">
+                        Kapaklı Plastik <span class="text-primary">Kiralık Kaplar</span>
+                    </h2>
+                    <p
+                        class="text-2xl text-gray-600 dark:text-gray-300 font-bold transform -rotate-1 inline-block bg-yellow-100 dark:bg-yellow-900/30 px-4 py-1 rounded-lg">
+                        + Ambalaj Kağıdı Bizden!
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 items-center max-w-5xl mx-auto">
+                    <!-- Pricing Card 1 -->
+                    <div
+                        class="bg-white dark:bg-[#1e252e] rounded-3xl p-8 border border-gray-100 dark:border-gray-800 shadow-xl hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col items-center text-center relative overflow-hidden group">
+                        <div class="absolute top-0 left-0 w-full h-2 bg-gray-200"></div>
+                        <div
+                            class="size-24 rounded-full bg-blue-50 dark:bg-blue-900/20 flex items-center justify-center mb-6 text-primary group-hover:scale-110 transition-transform">
+                            <span class="material-symbols-outlined text-5xl">inventory_2</span>
+                        </div>
+                        <h3 class="text-2xl font-black text-[#121417] dark:text-white mb-2">20 Tane</h3>
+                        <p class="text-gray-500 text-sm mb-6">Küçük Evler İçin İdeal</p>
+                        <div class="text-4xl font-black text-primary mb-8">2.000 TL</div>
+                        <a href="iletisim.html"
+                            class="w-full py-4 rounded-xl border-2 border-primary text-primary font-bold hover:bg-primary hover:text-white transition-all">
+                            Kirala
+                        </a>
+                    </div>
+
+                    <!-- Pricing Card 2 (Popular) -->
+                    <div
+                        class="bg-white dark:bg-[#1e252e] rounded-3xl p-8 border-2 border-primary shadow-2xl scale-105 z-10 flex flex-col items-center text-center relative overflow-hidden group">
+                        <div class="absolute top-0 left-0 w-full h-2 bg-primary"></div>
+                        <div
+                            class="absolute top-4 right-4 bg-primary text-white text-xs font-bold px-3 py-1 rounded-full">
+                            EN POPÜLER
+                        </div>
+                        <div
+                            class="size-24 rounded-full bg-primary/10 flex items-center justify-center mb-6 text-primary group-hover:scale-110 transition-transform">
+                            <span class="material-symbols-outlined text-5xl">inventory_2</span>
+                        </div>
+                        <h3 class="text-2xl font-black text-[#121417] dark:text-white mb-2">30 Tane</h3>
+                        <p class="text-gray-500 text-sm mb-6">Standart Daireler İçin</p>
+                        <div class="text-4xl font-black text-primary mb-8">3.000 TL</div>
+                        <a href="iletisim.html"
+                            class="w-full py-4 rounded-xl bg-primary text-white font-bold hover:bg-primary/90 transition-all shadow-lg shadow-primary/20">
+                            Hemen Kirala
+                        </a>
+                    </div>
+
+                    <!-- Pricing Card 3 -->
+                    <div
+                        class="bg-white dark:bg-[#1e252e] rounded-3xl p-8 border border-gray-100 dark:border-gray-800 shadow-xl hover:shadow-2xl hover:-translate-y-2 transition-all duration-300 flex flex-col items-center text-center relative overflow-hidden group">
+                        <div class="absolute top-0 left-0 w-full h-2 bg-gray-200"></div>
+                        <div
+                            class="size-24 rounded-full bg-blue-50 dark:bg-blue-900/20 flex items-center justify-center mb-6 text-primary group-hover:scale-110 transition-transform">
+                            <span class="material-symbols-outlined text-5xl">inventory_2</span>
+                        </div>
+                        <h3 class="text-2xl font-black text-[#121417] dark:text-white mb-2">50 Tane</h3>
+                        <p class="text-gray-500 text-sm mb-6">Geniş Evler İçin</p>
+                        <div class="text-4xl font-black text-primary mb-8">4.000 TL</div>
+                        <a href="iletisim.html"
+                            class="w-full py-4 rounded-xl border-2 border-primary text-primary font-bold hover:bg-primary hover:text-white transition-all">
+                            Kirala
+                        </a>
+                    </div>
+                </div>
+
+                <p class="text-center mt-12 text-gray-500 italic max-w-2xl mx-auto">
+                    * Tüm kiralama paketlerimizde dayanıklı plastik kutularımızın yanında <strong
+                        class="text-primary">ambalaj kağıdı ücretsiz</strong> olarak verilmektedir.
+                </p>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-20 px-4 md:px-10">
+            <div
+                class="max-w-[1280px] mx-auto bg-[#121417] rounded-[40px] p-10 md:p-24 text-center overflow-hidden relative">
+                <!-- Abstract blobs -->
+                <div
+                    class="absolute top-0 left-0 w-64 h-64 bg-primary/30 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2">
+                </div>
+                <div
+                    class="absolute bottom-0 right-0 w-80 h-80 bg-blue-500/20 rounded-full blur-3xl translate-x-1/3 translate-y-1/3">
+                </div>
+
+                <div class="relative z-10 max-w-3xl mx-auto">
+                    <h2 class="text-4xl md:text-5xl font-black text-white mb-6">Yeni Bir Başlangıca Hazır mısınız?</h2>
+                    <p class="text-gray-400 text-lg mb-10">Siz sadece yeni evinizin hayalini kurun, taşınma stresini
+                        bize bırakın. Ücretsiz ekspertiz hizmetimizle hemen tanışın.</p>
+                    <a href="iletisim.html"
+                        class="inline-flex items-center justify-center h-16 px-10 rounded-full bg-white text-[#121417] font-bold text-lg hover:scale-105 transition-transform">
+                        Ücretsiz Teklif Alın
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white dark:bg-[#14191e] border-t border-gray-100 dark:border-gray-800 pt-16 pb-8">
+        <div class="max-w-[1280px] mx-auto px-4 md:px-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                <div class="col-span-1 lg:col-span-1">
+                    <div class="flex items-center gap-3 text-primary dark:text-white mb-6">
+                        <span class="material-symbols-outlined text-[28px]">local_shipping</span>
+                        <span class="text-xl font-black tracking-tight">Paşa Nakliyat</span>
+                    </div>
+                    <p class="text-gray-500 text-sm leading-relaxed">
+                        Türkiye'nin lider nakliyat firması. Güvenli, hızlı ve ekonomik taşımacılık çözümleri ile
+                        2010'dan beri hizmetinizdeyiz.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-gray-900 dark:text-white mb-6 text-lg">Hızlı Bağlantılar</h4>
+                    <ul class="flex flex-col gap-3 text-sm text-gray-500 dark:text-gray-400">
+                        <li><a class="hover:text-primary transition-colors flex items-center gap-2"
+                                href="index.html"><span class="w-1 h-1 rounded-full bg-gray-300"></span>Anasayfa</a>
+                        </li>
+                        <li><a class="hover:text-primary transition-colors flex items-center gap-2"
+                                href="hizmetlerimiz.html"><span
+                                    class="w-1 h-1 rounded-full bg-gray-300"></span>Hizmetlerimiz</a></li>
+                        <li><a class="hover:text-primary transition-colors flex items-center gap-2" href="#"><span
+                                    class="w-1 h-1 rounded-full bg-gray-300"></span>Referanslar</a></li>
+                        <li><a class="hover:text-primary transition-colors flex items-center gap-2"
+                                href="iletisim.html"><span class="w-1 h-1 rounded-full bg-gray-300"></span>İletişim</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-gray-900 dark:text-white mb-6 text-lg">Popüler Hizmetler</h4>
+                    <ul class="flex flex-col gap-3 text-sm text-gray-500 dark:text-gray-400">
+                        <li><a class="hover:text-primary transition-colors" href="#">Evden Eve Nakliyat</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Ofis ve İşyeri Taşıma</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Akıllı Eşya Depolama</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Asansörlü Taşıma</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-gray-900 dark:text-white mb-6 text-lg">Bize Ulaşın</h4>
+                    <ul class="flex flex-col gap-4 text-sm text-gray-500 dark:text-gray-400">
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-primary mt-0.5 text-[20px]">call</span>
+                            <span class="font-medium hover:text-primary cursor-pointer">0 (532) 451 75 29</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-primary mt-0.5 text-[20px]">mail</span>
+                            <span
+                                class="font-medium hover:text-primary cursor-pointer">yasindenlzpasa2934@gmail.com</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-primary mt-0.5 text-[20px]">location_on</span>
+                            <span>Hendem Cd. 18, 34775 İstanbul, Ümraniye Türkiye</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div
+                class="border-t border-gray-100 dark:border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-xs text-gray-400 font-medium">© 2024 Paşa Nakliyat. Tüm hakları saklıdır.</p>
+                <div class="flex gap-6">
+                    <a class="text-gray-400 hover:text-primary transition-colors" href="#"><span
+                            class="hidden">Facebook</span><svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24">
+                            <path
+                                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z">
+                            </path>
+                        </svg></a>
+                    <a class="text-gray-400 hover:text-primary transition-colors" href="#"><span
+                            class="hidden">Twitter</span><svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24">
+                            <path
+                                d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z">
+                            </path>
+                        </svg></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

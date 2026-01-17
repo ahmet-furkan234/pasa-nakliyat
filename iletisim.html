@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+
+<html class="light" lang="tr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>İletişim - Paşa Nakliyat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <script src="js/tailwind.config.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body
+    class="bg-background-light dark:bg-background-dark font-display text-[#121417] antialiased flex flex-col min-h-screen">
+    <!-- Header / Navbar -->
+    <header
+        class="sticky top-0 z-50 bg-white/90 dark:bg-[#14191e]/90 backdrop-blur-md border-b border-[#f1f2f4] dark:border-gray-800">
+        <div class="px-4 md:px-10 py-3 flex items-center justify-between max-w-[1280px] mx-auto w-full">
+            <div class="flex items-center gap-4 text-primary dark:text-white">
+                <div class="size-8 flex items-center justify-center bg-primary/10 rounded-lg text-primary">
+                    <span class="material-symbols-outlined text-[24px]">local_shipping</span>
+                </div>
+                <h2 class="text-primary dark:text-white text-xl font-bold leading-tight tracking-[-0.015em]">Paşa
+                    Nakliyat</h2>
+            </div>
+            <div class="hidden md:flex items-center gap-9">
+                <a class="text-gray-900 dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors"
+                    href="index.html">Anasayfa</a>
+                <a class="text-gray-900 dark:text-gray-200 text-sm font-medium hover:text-primary transition-colors"
+                    href="hizmetlerimiz.html">Hizmetler</a>
+
+                <a class="text-primary font-bold text-sm leading-normal" href="iletisim.html">İletişim</a>
+            </div>
+            <div class="hidden md:block">
+                <button
+                    class="flex cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-6 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors shadow-lg shadow-primary/20">
+                    <span class="truncate">Teklif Al</span>
+                </button>
+            </div>
+            <div class="md:hidden text-primary">
+                <span class="material-symbols-outlined">menu</span>
+            </div>
+        </div>
+    </header>
+    <!-- Main Content Area -->
+    <main class="flex-grow w-full max-w-[1440px] mx-auto px-4 lg:px-10 py-6 lg:py-10">
+        <!-- Breadcrumbs -->
+        <nav aria-label="Breadcrumb" class="flex mb-8">
+            <ol class="inline-flex items-center space-x-1 md:space-x-3">
+                <li class="inline-flex items-center">
+                    <a class="inline-flex items-center text-sm font-medium text-gray-500 hover:text-primary dark:text-gray-400 dark:hover:text-white"
+                        href="index.html">
+                        <span class="material-symbols-outlined text-[20px] mr-2">home</span>
+                        Ana Sayfa
+                    </a>
+                </li>
+                <li>
+                    <div class="flex items-center">
+                        <span class="material-symbols-outlined text-gray-400 text-[20px]">chevron_right</span>
+                        <span class="ml-1 text-sm font-bold text-gray-700 md:ml-2 dark:text-white">İletişim</span>
+                    </div>
+                </li>
+            </ol>
+        </nav>
+        <!-- Split Layout: Contact Info & Form (Left) vs Map (Right) -->
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 h-full">
+            <!-- LEFT COLUMN: Content & Form -->
+            <div class="lg:col-span-5 flex flex-col gap-8">
+                <!-- Heading Section -->
+                <div class="flex flex-col gap-4">
+                    <h1
+                        class="text-4xl lg:text-5xl font-black text-[#121417] dark:text-white tracking-tight leading-[1.1]">
+                        Bize Ulaşın
+                    </h1>
+                    <p class="text-lg text-gray-600 dark:text-gray-300 font-medium leading-relaxed">
+                        Size en iyi taşıma hizmetini sunmak için buradayız. Sorularınız ve talepleriniz için aşağıdaki
+                        formu doldurabilir veya doğrudan iletişime geçebilirsiniz.
+                    </p>
+                </div>
+                <!-- Contact Details Cards (Stacked for better visibility) -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4">
+                    <!-- Phone -->
+                    <div
+                        class="group flex items-center gap-4 p-4 rounded-lg bg-white dark:bg-[#1e252e] border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-md transition-shadow">
+                        <div
+                            class="flex items-center justify-center size-12 rounded-full bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                            <span class="material-symbols-outlined">call</span>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-500 dark:text-gray-400 font-medium">Telefon</p>
+                            <h3 class="text-lg font-bold text-[#121417] dark:text-white">0 (532) 451 75 29</h3>
+                        </div>
+                    </div>
+                    <!-- Email -->
+                    <div
+                        class="group flex items-center gap-4 p-4 rounded-lg bg-white dark:bg-[#1e252e] border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-md transition-shadow">
+                        <div
+                            class="flex items-center justify-center size-12 rounded-full bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                            <span class="material-symbols-outlined">mail</span>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-500 dark:text-gray-400 font-medium">E-Posta</p>
+                            <h3 class="text-lg font-bold text-[#121417] dark:text-white">yasindenlzpasa2934@gmail.com
+                            </h3>
+                        </div>
+                    </div>
+                    <!-- Address -->
+                    <div
+                        class="group flex items-center gap-4 p-4 rounded-lg bg-white dark:bg-[#1e252e] border border-gray-100 dark:border-gray-800 shadow-sm hover:shadow-md transition-shadow">
+                        <div
+                            class="flex items-center justify-center size-12 rounded-full bg-primary/10 text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+                            <span class="material-symbols-outlined">location_on</span>
+                        </div>
+                        <div>
+                            <p class="text-sm text-gray-500 dark:text-gray-400 font-medium">Adres</p>
+                            <h3 class="text-lg font-bold text-[#121417] dark:text-white">Hendem Cd. 18, 34775 İstanbul,
+                                Ümraniye Türkiye</h3>
+                        </div>
+                    </div>
+                </div>
+                <!-- WhatsApp Button -->
+                <a class="flex items-center justify-center w-full p-4 rounded-lg bg-[#25D366]/10 text-[#128C7E] hover:bg-[#25D366] hover:text-white transition-all border border-[#25D366]/20 font-bold gap-3 group"
+                    href="https://wa.me/905324517529" target="_blank">
+                    <span class="material-symbols-outlined group-hover:animate-pulse">chat</span>
+                    WhatsApp ile Hızlı İletişim
+                </a>
+                <!-- Contact Form Card -->
+                <div
+                    class="bg-white dark:bg-[#1e252e] p-6 lg:p-8 rounded-xl shadow-lg shadow-gray-200/50 dark:shadow-none border border-gray-100 dark:border-gray-800 mt-2">
+                    <h3 class="text-xl font-bold text-[#121417] dark:text-white mb-6">İletişim Formu</h3>
+                    <form class="flex flex-col gap-5">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+                            <div class="flex flex-col gap-2">
+                                <label class="text-sm font-semibold text-gray-700 dark:text-gray-300">Ad Soyad</label>
+                                <input
+                                    class="h-12 w-full rounded-lg border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700 dark:text-white px-4 focus:border-primary focus:ring-primary focus:ring-2 transition-all outline-none"
+                                    placeholder="Adınız ve Soyadınız" type="text" />
+                            </div>
+                            <div class="flex flex-col gap-2">
+                                <label class="text-sm font-semibold text-gray-700 dark:text-gray-300">Telefon</label>
+                                <input
+                                    class="h-12 w-full rounded-lg border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700 dark:text-white px-4 focus:border-primary focus:ring-primary focus:ring-2 transition-all outline-none"
+                                    placeholder="05XX XXX XX XX" type="tel" />
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <label class="text-sm font-semibold text-gray-700 dark:text-gray-300">Hizmet Türü</label>
+                            <div class="relative">
+                                <select
+                                    class="h-12 w-full appearance-none rounded-lg border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700 dark:text-white px-4 pr-10 focus:border-primary focus:ring-primary focus:ring-2 transition-all outline-none cursor-pointer">
+                                    <option disabled="" selected="" value="">Hizmet Seçiniz</option>
+                                    <option value="evden-eve">Evden Eve Nakliyat</option>
+                                    <option value="ofis">Ofis Taşıma</option>
+                                    <option value="depolama">Eşya Depolama</option>
+                                    <option value="sehirlerarasi">Şehirlerarası Nakliyat</option>
+                                </select>
+                                <span
+                                    class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none text-gray-500">expand_more</span>
+                            </div>
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <label class="text-sm font-semibold text-gray-700 dark:text-gray-300">Mesajınız</label>
+                            <textarea
+                                class="w-full rounded-lg border-gray-200 bg-gray-50 dark:bg-gray-800 dark:border-gray-700 dark:text-white p-4 focus:border-primary focus:ring-primary focus:ring-2 transition-all outline-none resize-none"
+                                placeholder="Talebinizi detaylandırın..." rows="4"></textarea>
+                        </div>
+                        <div class="mt-2 flex flex-col md:flex-row items-center justify-between gap-4">
+                            <p class="text-xs text-gray-500 dark:text-gray-400 flex items-center gap-1">
+                                <span class="material-symbols-outlined text-[16px]">schedule</span>
+                                En geç 24 saat içinde dönüş yapılır.
+                            </p>
+                            <button
+                                class="w-full md:w-auto min-w-[140px] h-12 rounded-lg bg-primary hover:bg-primary/90 text-white font-bold shadow-lg shadow-primary/25 transition-all flex items-center justify-center gap-2"
+                                type="button">
+                                <span>Gönder</span>
+                                <span class="material-symbols-outlined text-[20px]">send</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- RIGHT COLUMN: Map -->
+            <div
+                class="lg:col-span-7 h-[500px] lg:h-auto min-h-[500px] rounded-xl overflow-hidden shadow-xl border border-gray-200 dark:border-gray-800 relative">
+                <iframe
+                    src="https://maps.google.com/maps?width=100%25&height=600&hl=en&q=Hendem%20Cd.%2018,%2034775%20%C4%B0stanbul,%20%C3%96mraniye%20T%C3%BCrkiye+(Pa%C5%9Fa%20Nakliyat)&t=&z=14&ie=UTF8&iwloc=B&output=embed"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    class="w-full h-full filter dark:grayscale-[0.2] contrast-125"></iframe>
+            </div>
+        </div>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-white dark:bg-[#14191e] border-t border-gray-100 dark:border-gray-800 pt-16 pb-8">
+        <div class="max-w-[1280px] mx-auto px-4 md:px-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                <!-- Col 1: Logo/Desc -->
+                <div class="col-span-1 lg:col-span-1">
+                    <div class="flex items-center gap-3 text-primary dark:text-white mb-6">
+                        <span class="material-symbols-outlined text-[28px]">local_shipping</span>
+                        <span class="text-xl font-black tracking-tight">Paşa Nakliyat</span>
+                    </div>
+                    <p class="text-gray-500 text-sm leading-relaxed">
+                        Türkiye'nin lider nakliyat firması. Güvenli, hızlı ve ekonomik taşımacılık çözümleri ile
+                        2010'dan beri hizmetinizdeyiz.
+                    </p>
+                </div>
+                <!-- Col 2: Quick Links -->
+                <div>
+                    <h4 class="font-bold text-gray-900 dark:text-white mb-6 text-lg">Hızlı Bağlantılar</h4>
+                    <ul class="flex flex-col gap-3 text-sm text-gray-500 dark:text-gray-400">
+                        <li><a class="hover:text-primary transition-colors flex items-center gap-2"
+                                href="index.html"><span class="w-1 h-1 rounded-full bg-gray-300"></span>Anasayfa</a>
+                        </li>
+                        <li><a class="hover:text-primary transition-colors flex items-center gap-2"
+                                href="hizmetlerimiz.html"><span
+                                    class="w-1 h-1 rounded-full bg-gray-300"></span>Hizmetlerimiz</a></li>
+                        <li><a class="hover:text-primary transition-colors flex items-center gap-2" href="#"><span
+                                    class="w-1 h-1 rounded-full bg-gray-300"></span>Referanslar</a></li>
+                        <li><a class="hover:text-primary transition-colors flex items-center gap-2"
+                                href="iletisim.html"><span class="w-1 h-1 rounded-full bg-gray-300"></span>İletişim</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Col 3: Services -->
+                <div>
+                    <h4 class="font-bold text-gray-900 dark:text-white mb-6 text-lg">Popüler Hizmetler</h4>
+                    <ul class="flex flex-col gap-3 text-sm text-gray-500 dark:text-gray-400">
+                        <li><a class="hover:text-primary transition-colors" href="#">Evden Eve Nakliyat</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Ofis ve İşyeri Taşıma</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Akıllı Eşya Depolama</a></li>
+                        <li><a class="hover:text-primary transition-colors" href="#">Asansörlü Taşıma</a></li>
+                    </ul>
+                </div>
+                <!-- Col 4: Contact -->
+                <div>
+                    <h4 class="font-bold text-gray-900 dark:text-white mb-6 text-lg">Bize Ulaşın</h4>
+                    <ul class="flex flex-col gap-4 text-sm text-gray-500 dark:text-gray-400">
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-primary mt-0.5 text-[20px]">call</span>
+                            <span class="font-medium hover:text-primary cursor-pointer">0 (532) 451 75 29</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-primary mt-0.5 text-[20px]">mail</span>
+                            <span
+                                class="font-medium hover:text-primary cursor-pointer">yasindenlzpasa2934@gmail.com</span>
+                        </li>
+                        <li class="flex items-start gap-3">
+                            <span class="material-symbols-outlined text-primary mt-0.5 text-[20px]">location_on</span>
+                            <span>Hendem Cd. 18, 34775 İstanbul, Ümraniye Türkiye</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Bottom Strip -->
+            <div
+                class="border-t border-gray-100 dark:border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-xs text-gray-400 font-medium">© 2024 Paşa Nakliyat. Tüm hakları saklıdır.</p>
+                <div class="flex gap-6">
+                    <a class="text-gray-400 hover:text-primary transition-colors" href="#"><span
+                            class="hidden">Facebook</span><svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24">
+                            <path
+                                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z">
+                            </path>
+                        </svg></a>
+                    <a class="text-gray-400 hover:text-primary transition-colors" href="#"><span
+                            class="hidden">Twitter</span><svg class="w-5 h-5" fill="currentColor" viewbox="0 0 24 24">
+                            <path
+                                d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z">
+                            </path>
+                        </svg></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
