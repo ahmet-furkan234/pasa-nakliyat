@@ -43,16 +43,43 @@
                     href="iletisim.html">İletişim</a>
             </div>
             <div class="hidden md:block">
-                <button
+                <a href="iletisim.html"
                     class="flex cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-6 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-colors shadow-lg shadow-primary/20">
                     <span class="truncate">Teklif Al</span>
-                </button>
+                </a>
             </div>
-            <div class="md:hidden text-primary">
+            <div class="md:hidden text-primary cursor-pointer" id="mobile-menu-button">
                 <span class="material-symbols-outlined">menu</span>
             </div>
         </div>
     </header>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu"
+        class="fixed inset-0 z-40 bg-white dark:bg-[#14191e] flex-col pt-24 px-6 hidden md:hidden border-b border-[#f1f2f4] dark:border-gray-800">
+        <nav class="flex flex-col gap-6 text-xl font-bold">
+            <a href="index.html"
+                class="text-gray-900 dark:text-white pb-4 border-b border-gray-100 dark:border-gray-800">Anasayfa</a>
+            <a href="hizmetlerimiz.html"
+                class="text-primary pb-4 border-b border-gray-100 dark:border-gray-800">Hizmetler</a>
+            <a href="iletisim.html"
+                class="text-gray-900 dark:text-white pb-4 border-b border-gray-100 dark:border-gray-800">İletişim</a>
+            <a href="iletisim.html"
+                class="mt-4 flex items-center justify-center rounded-xl h-14 bg-primary text-white hover:bg-primary/90 transition-colors shadow-lg shadow-primary/20">
+                Teklif Al
+            </a>
+        </nav>
+        <div class="mt-auto pb-10 flex flex-col gap-4 text-sm text-gray-500 dark:text-gray-400">
+            <div class="flex items-center gap-3">
+                <span class="material-symbols-outlined text-primary">call</span>
+                <span>0 (532) 451 75 29</span>
+            </div>
+            <div class="flex items-center gap-3">
+                <span class="material-symbols-outlined text-primary">mail</span>
+                <span>yasindenlzpasa2934@gmail.com</span>
+            </div>
+        </div>
+    </div>
     <main class="flex-grow">
         <!-- Page Heading -->
         <section class="relative pt-16 pb-12 px-4 md:px-10">
@@ -304,11 +331,11 @@
                         </p>
                     </div>
                     <div class="flex-shrink-0">
-                        <button
+                        <a href="iletisim.html"
                             class="flex cursor-pointer items-center justify-center overflow-hidden rounded-2xl h-16 px-10 bg-white text-primary text-lg font-bold leading-normal tracking-wide hover:bg-gray-50 hover:scale-105 transition-all shadow-xl">
                             <span class="mr-3">Ücretsiz Teklif Al</span>
                             <span class="material-symbols-outlined">arrow_forward</span>
-                        </button>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -392,6 +419,27 @@
             </div>
         </div>
     </footer>
+    <script>
+        // Mobile menu toggle
+        const menuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuIcon = menuButton.querySelector('span');
+
+        menuButton.addEventListener('click', () => {
+            const isHidden = mobileMenu.classList.contains('hidden');
+            if (isHidden) {
+                mobileMenu.classList.remove('hidden');
+                mobileMenu.classList.add('flex');
+                menuIcon.textContent = 'close';
+                document.body.style.overflow = 'hidden'; // Prevent scrolling
+            } else {
+                mobileMenu.classList.add('hidden');
+                mobileMenu.classList.remove('flex');
+                menuIcon.textContent = 'menu';
+                document.body.style.overflow = ''; // Enable scrolling
+            }
+        });
+    </script>
 </body>
 
 </html>
