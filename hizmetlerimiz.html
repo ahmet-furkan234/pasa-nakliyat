@@ -20,10 +20,24 @@
     <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
     <script src="js/tailwind.config.js"></script>
     <link rel="stylesheet" href="css/style.css">
+    <script>
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=GTM-MCFXJ628' + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MCFXJ628');
+    </script>
 </head>
 
 <body
     class="bg-background-light dark:bg-background-dark font-display text-[#121417] dark:text-white overflow-x-hidden flex flex-col min-h-screen">
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MCFXJ628" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe>
+    </noscript>
     <!-- Navigation -->
     <header
         class="sticky top-0 z-50 bg-white/90 dark:bg-[#14191e]/90 backdrop-blur-md border-b border-[#f1f2f4] dark:border-gray-800">
