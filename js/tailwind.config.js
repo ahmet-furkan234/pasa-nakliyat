@@ -1,20 +1,14 @@
 tailwind.config = {
-    darkMode: "class",
     theme: {
         extend: {
             colors: {
-                "primary": "#1f3f65",
-                "background-light": "#f6f7f8",
-                "background-dark": "#14191e",
+                "primary": "#1a3a5f",
+                "accent": "#e85c1b",
+                "dark-navy": "#0d1b2a",
+                "light-bg": "#f5f7fa",
             },
             fontFamily: {
-                "display": ["Manrope", "sans-serif"]
-            },
-            borderRadius: {
-                "DEFAULT": "0.5rem",
-                "lg": "1rem",
-                "xl": "1.5rem",
-                "full": "9999px"
+                "display": ["Inter", "sans-serif"]
             },
         },
     },
